@@ -1,0 +1,112 @@
+.form-group {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.form-group label {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: #333;
+    color: #fff;
+    resize: none;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: solid 1px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: auto;
+    width: 100px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.message {
+    color: #90ee90;
+    margin: 10px 0;
+}
+
+.error {
+    color: #ff4c4c;
+    margin: 10px 0;
+}
+
+.formulario {
+    display: grid;
+    left: 51%;
+    position: fixed;
+    width: 40%;
+    bottom: 12%;
+
+}
+.font{
+    font-family:  'jost', sans-serif;
+}
+.title{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 376px) {
+
+.formulario {
+    left: 0px;
+    bottom: 0px;
+    width: 102%;
+    position: relative;
+}
+
+}
+@media only screen and (min-width: 377px) and (max-width: 391px) {
+
+    .formulario {
+        left: 0px;
+        bottom: 0px;
+        width: 102%;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 392px) and (max-width: 415px) {
+
+    .formulario {
+        left: 0px;
+        bottom: 0px;
+        width: 102%;
+        position: relative;
+    }
+}
+@media screen and (min-width: 416px) and (max-width: 430px) {
+    .formulario {
+        left: 0px;
+        bottom: 0px;
+        width: 104%;
+        position: relative;
+    }
+}
+@media screen and (min-width: 431px) and (max-width: 767px) {
+
+    .formulario {
+        bottom: 4%;
+        width: 40%;
+    }
+}

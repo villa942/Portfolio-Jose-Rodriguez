@@ -1,0 +1,585 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex; /* Evita la barra de desplazamiento horizontal */
+    background-color: rgb(15, 15, 15);    
+}
+.works-title{
+    position: relative;
+    left: 5%;
+    bottom: 537px;
+}
+/* Estilo para titulo de la clase work title */
+.works-title h1{
+    color: white; 
+    margin-left: auto;
+    margin-right: 90px;
+    margin-top: 0px;
+    font-family:'jost', sans-serif;
+    font-size: 75px;
+}
+/* Estilo para titulo de proyectos que tienen imagen de portada */
+.works-title2 {
+    position: relative;
+    left: 5%;
+    bottom: 537px;
+}
+/* Estilo para titulo de la clase work title */
+.works-title2 h1{
+    color: white; 
+    margin-left: auto;
+    margin-right: 90px;
+    margin-top: 0px;
+    font-family:'jost', sans-serif;
+    font-size: 75px;
+}
+/* Body de la pagina work  */
+.work-body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+}
+.contact-body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+}
+/* Clase del body de archivo video */
+.video{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+}
+/* Estilo a etiqueta a de la clase redes */
+.redes a{
+    text-decoration: none;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+  /* Estilo a etiqueta img de la clase redes */
+.redes img{
+    width: 58px;
+    height: 33px;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+  }
+  /* Estilo a clase ig de la clase redes */
+.redes .ig{
+    text-decoration: none;
+    margin-right: 3px;
+    margin-left: 7px;
+    width: 39px;
+  }
+/* Menu de navegaciòn */
+.navegacion{ 
+    position: fixed;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    color: white;
+    font-family: 'jost', sans-serif;
+    right: 0;
+    bottom: 0;
+}
+/* Botones de menu de navegacion */
+.navegacion ul{
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Establece el contenedor como un contenedor flexible */
+    flex-direction: column; 
+}
+/* Separacion entre botones del menù */
+.navegacion li{
+    margin-bottom: 25px;
+}
+/* Estilos de botones de menu de navegacion */
+.navegacion .inicio{
+    text-decoration: none;
+    color: white;
+    padding: 11px 21px 11px 21px;
+}
+.navegacion .inicio:hover{
+    color: black;
+}
+/* Estilos para todos los botones */
+button {
+    background-color: transparent !important; /* Puedes ajustar el color según tus preferencias */
+    color: white;
+}
+/* Contenedor del titulo en la pagina principal */
+.titulo{
+    position: absolute;
+    background-color: transparent !important; 
+    transform: translate(30%, 95%);
+    color: white;   
+}
+/* Estilos para el titulo */
+.titulo h1 {
+    font-family: 'jost', sans-serif;
+    font-size: 47px;
+    margin-bottom: 0px;
+}
+/* Estilo para parrafo debajo del titulo */
+h2{
+    font-family: 'jost', sans-serif;
+    font-size: 28px;
+}
+/* Estilos para todas las etiquetas "VIDEO" */
+.fondo {
+    position: fixed;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 376px) {
+
+    .titulo{
+        position: absolute;
+        background-color: transparent !important; 
+        transform: translate(9%, 95%);
+        color: white;   
+    }
+    /* Contenedor de redes (IG Y IMDB) */
+    .navegacionw .redes{
+        margin-left:14px;
+    }
+    /* Estilos para imagenes de redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+    /* Estilos para icono de instagram  */
+    .redes .ig{
+        width: 32px;
+    }
+    /* menu de navegacion */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: 0px;
+        right: 0;
+    bottom: 0;
+    }
+    .titulo h1 {
+        font-family: 'jost', sans-serif;
+        font-size: 37px;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    /* Estilo a botones de menu */
+    .navegacion .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 14px;
+    }
+    .fondo{
+        height: 100%;
+    }
+}
+    /* -------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 377px) and (max-width: 391px) {
+
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+    }
+    .fondo{
+        height: 100%;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: -2px;
+        right: 0;
+    bottom: 0;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .title-works{
+        left: 73px;
+        top: 67px;
+    }
+    .titulo{
+        transform: translate(9%, 73%);
+    }
+    .compartirBtn {
+        left: 55px;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 37px;
+        margin-bottom: 9px;
+    }
+    /* Estilo para parrafo debajo del titulo */
+    h2{
+        font-size: 25px;
+    }
+    }
+    
+/* -------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 392px) and (max-width: 415px) {
+    
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: -2px;
+        right: 0;
+    bottom: 0;
+    }
+    h6{
+        font-size: 13px;
+    }
+    .titulo{
+        transform: translate(9%, 73%);
+    }
+    .title-works{
+        left: 85px;
+        top: 67px;
+    }
+    .fondo{
+        height: 100%;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 14px;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 41px;
+        margin-bottom: 10px;
+    }
+    /* Estilo para parrafo debajo del titulo */
+    h2{
+        font-size: 27px;
+    }
+    }
+
+/* ------------------------------------------------------------------------------------------------ */
+@media screen and (min-width: 416px) and (max-width: 430px) {
+   
+  /* Estilo a etiqueta img de la clase redes */
+.redes img{
+    width: 46px;
+    height: 28px;
+}
+  /* Estilo a clase ig de la clase redes */
+.redes .ig{
+    width: 32px;
+}
+/* Menu de navegaciòn */
+.navegacion{
+    right: 0;
+    bottom: 0;
+}
+.title-works{
+    left: 76px;
+    top: 60px;
+}
+.titulo{
+    transform: translate(9%, 73%);
+}
+.proyect{
+    width: 100%;
+    margin-bottom: 3%;
+}
+h2 {
+    font-size: 26px;
+}
+/* Estilos de botones de menu de navegacion */
+.navegacion .inicio {
+    padding: 6px 11px 6px 11px;
+    font-size: 14px;
+}
+.fondo{
+    height: 100%;
+}
+/* Estilos para el titulo */
+.titulo h1{
+    font-size: 41px;
+    margin-bottom: 7px;
+}
+/* Estilo para parrafo debajo del titulo */
+h2{
+    font-size: 28px;
+}
+  }
+  
+  /* ------------------------------------------------------------------------------------------------ */
+  @media screen and (min-width: 431px) and (max-width: 767px) {
+
+   /* Estilo a etiqueta img de la clase redes */
+ .redes img{
+     width: 58px;
+     height: 33px;
+     margin-bottom: 20px;
+     background-color: transparent ;
+ }
+   /* Estilo a clase ig de la clase redes */
+ .redes .ig{
+     width: 32px;
+     text-decoration: none;
+     margin-right: 3px;
+     margin-left: 7px;
+     width: 39px;
+ }
+ /* Menu de navegaciòn */
+ .navegacion{
+     padding: 6px 11px 6px 11px;
+     margin-bottom: 0%;
+     margin-right: -2px;
+ }
+ .fondo{
+    height: 100%;
+}
+ .title-works{
+    left: 54px;
+    bottom: 313px;
+}
+.titulo{
+    transform: translate(9%, 93%);
+}
+ /* Estilos de botones de menu de navegacion */
+ .navegacion .inicio {
+     padding: 11px 21px 11px 21px;
+ }
+ /* Estilos para el titulo */
+ .titulo h1{
+     font-size: 61px;
+ }
+ /* Estilo para parrafo debajo del titulo */
+ h2{
+     font-size: 28px;
+ }
+ .compartirBtn{
+    left: 59px;
+}
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+     /* Estilo a etiqueta img de la clase redes */
+   .redes img{
+       width: 58px;
+       height: 33px;
+       margin-bottom: 20px;
+       background-color: transparent ;
+   }
+     /* Estilo a clase ig de la clase redes */
+   .redes .ig{
+       width: 32px;
+       text-decoration: none;
+       margin-right: 3px;
+       margin-left: 7px;
+       width: 39px;
+   }
+   /* Menu de navegaciòn */
+   .navegacion{
+       padding: 6px 11px 6px 11px;
+       margin-bottom: 0%;
+       margin-right: -2px;
+       right: 0;
+    bottom: 0;
+   }
+   .title-works{
+    left: 54px;
+    bottom: 313px;
+}
+.titulo{
+    transform: translate(9%, 51%);
+}
+   /* Estilos de botones de menu de navegacion */
+   .navegacion .inicio {
+       padding: 11px 21px 11px 21px;
+   }
+   .titulo h1{
+       font-size: 71px;
+   }
+   /* Estilo para parrafo debajo del titulo */
+   h2{
+       font-size: 37px;
+   }
+   .compartirBtn{
+    left: 60px;
+}
+   }
+   
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .title-works { 
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        right: 0;
+    bottom: 0;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 56px;
+    }
+    .titulo{
+        transform: translate(29%, 44%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    h2{
+        font-size: 35px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+    }
+    /* ----------------------------------------------------------------------------------- */
+    /* Media query para anchos entre 1400px y 1600px */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-right: 22px;
+        right: 0;
+    bottom: 0;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 54px;
+    }
+    .titulo{
+        transform: translate(35%, 73%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    h2{
+        font-size: 35px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  @media (min-width: 1601px) {
+     
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        right: 0;
+    bottom: 0;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 56px;
+    }
+    .titulo{
+        transform: translate(40%, 83%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    h2{
+        font-size: 36px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }

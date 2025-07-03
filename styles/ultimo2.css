@@ -1,0 +1,2241 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex; /* Evita la barra de desplazamiento horizontal */
+    background-color: rgb(15, 15, 15);    
+}
+main{
+    width: 81%;
+    position: relative;
+    left: 10%;
+}
+.works-title{
+    position: relative;
+}
+/* Estilo para titulo de la clase work title */
+.works-title h1{
+    color: white; 
+    margin-left: auto;
+    margin-right: 90px;
+    margin-top: 0px;
+    font-family:'jost', sans-serif;
+    font-size: 75px;
+}
+.works-title h2{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Body de la pagina work  */
+.work-body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+}
+.contact-body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+}
+/* Clase del body de archivo video */
+.video{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+}
+/* Estilo a etiqueta a de la clase redes */
+.redes a{
+    text-decoration: none;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+  /* Estilo a etiqueta img de la clase redes */
+.redes img{
+    width: 58px;
+    height: 33px;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+  }
+  /* Estilo a clase ig de la clase redes */
+.redes .ig{
+    text-decoration: none;
+    margin-right: 3px;
+    margin-left: 7px;
+    width: 39px;
+  }
+/* Menu de navegaciòn */
+.navegacion{ 
+    position: fixed;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    color: white;
+    font-family: 'jost', sans-serif;
+    transform: translate(1230px, 350px);
+}
+/* Botones de menu de navegacion */
+.navegacion ul{
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Establece el contenedor como un contenedor flexible */
+    flex-direction: column; 
+}
+/* Separacion entre botones del menù */
+.navegacion li{
+    margin-bottom: 25px;
+}
+/* Estilos de botones de menu de navegacion */
+.navegacion .inicio{
+    text-decoration: none;
+    color: white;
+    padding: 11px 21px 11px 21px;
+}
+.navegacion .inicio:hover{
+    color: black;
+}
+/* Navegacion de work */
+/* Menu de navegaciòn */
+.navegacionw{ 
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 34px;
+    color: white;
+    font-family: 'jost', sans-serif;
+}
+/* Estilos para todos los botones */
+button {
+    background-color: transparent !important; /* Puedes ajustar el color según tus preferencias */
+    color: white;
+}
+.hover-element {
+    padding: 10px;
+    cursor: pointer;
+}
+/* Mostrar la imagen al pasar el mouse sobre el elemento */
+.container:hover .hover-image {
+    display: block;
+}
+
+/* Estilos para contenedor de about me */
+.aboutMe{
+    background-color: transparent !important;
+    top: 125%;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+/* Estilos para etiquetas h1 de la pagina de about me*/
+.aboutMe h1{
+    font-family: 'jost', sans-serif;
+    font-size: 71px;
+    margin-left: 40%;
+}
+/* Estilos para etiquetas p de la pagina de about me*/
+.aboutMe p{
+    font-family: 'jost', sans-serif;
+    font-size: 20px;
+    position: relative;
+    width: 69%;
+    bottom: 100%;
+    left: 32%;
+}
+.text-about{
+    width: 100%;
+    height: 0px;
+}
+.aboutMe img{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    bottom: -1%;
+    border-radius: 20px;
+    left: 1%;
+    
+}
+/* Contenedor del titulo en la pagina principal */
+.titulo{
+    position: absolute;
+    background-color: transparent !important; 
+    transform: translate(30%, 95%);
+    color: white;   
+}
+/* Estilos para el titulo */
+.titulo h1 {
+    font-family: 'jost', sans-serif;
+    font-size: 47px;
+    margin-bottom: 0px;
+}
+/* Estilo para parrafo debajo del titulo */
+.titulo p{
+    font-family: 'jost', sans-serif;
+    font-size: 28px;
+}
+.contact-main{
+    width: 80%;
+    margin: auto;
+}
+
+/* Contenedor de datos de contacto */
+.contacto{
+    position: absolute;
+    background-color: transparent !important; 
+    top: 20%;
+    color: white;
+}
+/* Estilos para etiquetas h1 de la pagina de contacto*/
+.contacto h2{
+    font-family: 'jost', sans-serif;
+    font-size: 55px;
+}
+/* Estilos para etiquetas p de la pagina de contacto*/
+.contacto p{
+    font-family: 'jost', sans-serif;
+    font-size: 25px;
+}
+/* Contenedor de informacion de celular */
+.celular{
+    position: absolute;
+    background-color: transparent !important; 
+    left: 5%;
+    top: 40%;
+    color: white;
+}
+/* Estilos para etiquetas p de la pagina de contacto*/
+.celular p{
+    font-family: 'jost', sans-serif;
+    font-size: 25px;
+}
+/* Estilos para todas las etiquetas "VIDEO" */
+.fondo {
+    position: fixed;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+}
+/* Estilos del carousel */
+.carousel{
+    width: 100%;
+    bottom:1%
+}
+/* Union de los slide */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+/* Bordes de imagenes del slide */
+.imagen-work{
+    border-radius: 20px;
+    height: 100%;
+  }
+  /* Estilo del container de imagenes que  van abajo del slide */
+.container{
+    text-align: center;
+    align-content: center;
+    font-family: 'jost',sans-serif;
+    height: 100%;
+}
+/* Estilos para el titulo de coleccion de iamgenes */
+.container h1{
+    color: white;
+    font-family: 'jost', sans-serif ;
+    font-size: 47px;
+    display: contents;
+}
+/* margen para imagenes de abajo del slide */
+.colunm img{
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 90%;
+    height: 100%;
+}
+.image-container a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}  
+.title-works{
+    text-align: center;
+    color: white;
+    font-family: 'jost', sans-serif;
+    position: relative;
+    left: 533px;
+    top: -51px;
+}
+.title-works h1{
+    font-size: 80px;
+}
+.mosaico {
+    width: 100%;
+    height: 22%;
+    top: 3%;
+    position: relative;
+}
+.image-container {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 11%;
+}    
+.proyect, .proyect2, .proyect3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
+
+}     
+.proyect img, .proyect2 img, .proyect3 img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+        
+.proyect:hover img, .proyect2:hover img, .proyect3:hover img {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+        
+.lazy-image {
+    opacity: 0;
+    transform: scale(1.1); /* Agrandar la imagen un 10% inicialmente */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    color:#3d403e;
+}
+.overlay2 p {
+    font-family: 'Jost', sans-serif;;
+    font-size: 16px;
+}
+.proyect:hover .overlay2, .proyect2:hover .overlay2, .proyect3:hover .overlay2 {
+    opacity: 1;
+}  
+.proyect {
+    width: 64%;
+    height: 125%;
+}  
+.proyect2 {
+    width: 100%;
+    height: 51%;
+    margin-bottom: 14px;
+}
+.proyect3 {
+    width: 100%;
+    height: 51%;
+}
+.column {
+    height: 119%;
+    width: 35%;
+
+}
+    .titulo2{
+    background-color: transparent !important;
+    color: white;
+    left: 1%;
+    position: relative;
+    width: 24%;
+    }
+    .titulo2 h1{
+        font-family: 'jost', sans-serif;
+        font-size: 33px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    .titulo2 h2{
+        font-family: 'jost', sans-serif;
+        font-size: 24px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    .menu {
+        transform: translate(0%, 126%);
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .menu ul li {
+        margin-left: 20px;
+    }
+    .menu ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'jost', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    .menu a{
+        display: contents;
+    }
+    .menu ul li a:hover {
+        text-decoration: underline;
+    }
+    .carousel-item video {
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+    }
+    .container2 {
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0;
+        width: 100%;
+        position: relative;
+    }
+    .row img {
+        width: 106%;
+        transition: opacity 0.3s ease;
+    }
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-49%, -50%);
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.9s ease;
+        pointer-events: none;
+        font-family: 'jost';
+        background-color: rgba(255, 255, 255, 0.5);
+        height: 100%;
+        width: 100%;
+        align-content: center;
+        color:#292b2a;    
+    }
+    .project-container {
+        position: relative;
+        width: 33%;
+    }
+    .row:hover img {
+        opacity: 0.4;
+    }
+    .row:hover .overlay {
+        opacity: 1;
+    }
+    .categoria {
+        font-family: 'jost';
+        color: white;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .overlay p{
+        font-size: 15px;
+        color:#292b2a;
+    }
+
+/* -------------------------------------------------------------------------------------------- */
+    @media only screen and (max-width: 376px) {
+
+    
+    /* Contenedor de redes (IG Y IMDB) */
+    .navegacionw .redes{
+        margin-left:14px;
+    }
+    /* Estilos para imagenes de redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+    /* Estilos para icono de instagram  */
+    .redes .ig{
+        width: 32px;
+    }
+    /* menu de navegacion */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: 0px;
+        transform: translate(255px, 320px);
+    }
+    .titulo h1 {
+        font-family: 'jost', sans-serif;
+        font-size: 37px;
+        margin-bottom: 12px;
+    }
+    .menu{
+        transform: translate(-40%, 385%);
+        width: 178%;
+        font-size: 11px;
+    }
+    .titulo2 {
+        transform: translate(27%, -28%);
+        width: 246px;
+        
+    }
+    .proyect2 {
+        height: 55%;
+    }
+    .proyect3 {
+        height: 52%;
+    }
+    .titulo2 h1 {
+        font-size: 26px;
+    }
+    .titulo2 h2 {
+        font-size: 18px;
+    }
+    .image-container {
+        width: 98%;
+        position: relative;
+        top: 44px;
+        height: 233px;
+        margin-left: 61px;
+        margin-right: 30px;
+        right: 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        margin-bottom: 121%;
+    }
+    .proyect{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .titulo p {
+        font-size: 26px;
+    }
+    .column{
+        margin-bottom: 11%;
+        width: 100%;
+        height: 141%;
+        position: absolute;
+        top: 100%;
+    }
+    .proyect2{
+        width: 100%;
+        height: 51%;
+        margin-bottom: 14px;
+    }
+    .row{
+        width: 123%;
+    }
+    .container2{
+                transform: translate(-16%, 10%);
+                width: 99%;
+    }
+    .categoria{
+    transform: translate(-14%, 4px);
+    width: 60%;
+    }
+    .row img{
+        width: 124%;
+    }
+    /* Titulo de works */
+    .works-title {    
+        left: 2%;
+    }
+    .works-title2 {
+        position: relative;
+        left: 16%;
+        bottom: 311px;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 260px;
+        top: 8px;
+        left: 1px;
+        padding-top: 39px;
+        position: relative;
+        font-size: 27px;
+      }
+      /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Estilo del container de imagenes que  van abajo del slide */
+    .container {
+        position: relative;
+        top: 2%;
+        height: 100%;
+        right: 0%;
+    }
+    .carousel-item video {
+        height: 311px;
+    }
+    /* Estilos del carousel */
+    .carousel{
+        left: 17px;
+        width: 91%;
+    }
+    .title-works{
+    text-align: center;
+    color: white;
+    font-family: 'jost', sans-serif;
+    position: relative;
+    left: 89px;
+    top: -51px;
+    }  
+    .title-works h1 {
+        font-size: 64px;
+    }
+    /* Estilo a botones de menu */
+    .navegacion .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 14px;
+    }
+    /* Menu de navegaciòn */
+    .navegacionw{ 
+        position: absolute;
+        margin-right: 11px;
+        top: 161%;
+    }
+    /* Estilo a botones de menu */
+    .navegacionw .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 13px;
+    }
+    /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 10%;
+        width: 351px;
+        position: relative;
+        right: 25%;
+    }
+    .aboutMe img {
+        width: 231px;
+        height: 391px;
+        bottom: 7%;
+        border-radius: 20px;
+        left: 30%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 54px;
+        position: relative;
+        left: 30%;
+        width: 260px;
+        margin-left: 0px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 16px;
+        position: relative;
+        left: 47px;
+        width: 353px;
+        bottom: 3%;
+    }
+    /* Estilos para todas las etiquetas "VIDEO" */
+    video {
+        top: 50%;
+    }
+    h6{
+        font-size: 13px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 102%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+    .overlay{
+        display: none;
+    }
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        margin-right: 3px;
+        font-size: 33px;
+    }
+    
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 29%;
+        right: 6%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 65px;
+        position: relative;
+        left: -1%;
+        bottom: 0px;
+        margin-bottom: 10px;   
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 23px;
+        position: relative;   
+    }
+    .fondo{
+        height: 100%;
+    }
+}
+    /* -------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 377px) and (max-width: 391px) {
+
+    .navegacionw .redes{
+        margin-left:14px;
+    }
+    
+    .titulo2 {
+        transform: translate(35%, -42%);
+        width: 200px;
+        
+    }
+
+    .titulo2 h1 {
+        font-size: 28px;
+    }
+    .titulo2 h2 {
+        font-size: 18px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+    }
+    .fondo{
+        height: 100%;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: -2px;
+        transform: translate(275px, 320px);
+    }
+    h6{
+        font-size: 13px;
+    }
+    .menu{
+        transform: translate(-40%, 385%);
+        width: 178%;
+        font-size: 11px;
+    }
+    .titulo2 {
+        transform: translate(33%, -33%); 
+    }
+    .image-container {
+        width: 98%;
+        position: relative;
+        top: 44px;
+        height: 233px;
+        margin-left: 61px;
+        margin-right: 30px;
+        right: 51px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        margin-bottom: 110%;
+    }
+    .proyect{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .titulo p {
+        font-size: 26px;
+    }
+    .overlay{
+        display: none;
+    }
+    .column{
+        margin-bottom: 11%;
+        width: 100%;
+        height: 137%;
+        position: absolute;
+        top: 100%;
+    }
+    .proyect2{
+        width: 100%;
+        height: 51%;
+        margin-bottom: 14px;
+    }
+    .row{
+        width: 115%;
+    }
+    .container2{
+        transform: translate(-11%,13%);
+    }
+    .row img {
+        width: 118%;
+    }
+    .categoria{
+    transform: translate(-21%, 2px);
+    width: 60%;
+    }
+    /* Titulo de works */
+    .works-title {    
+        left: 2%;
+        bottom: -14px;
+    }
+    .works-title2 {
+        position: relative;
+        left: 16%;
+        bottom: 257px;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 260px;
+        top: 8px;
+        left: 1px;
+        padding-top: 39px;
+        position: relative;
+        font-size: 27px;
+      }
+      /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Estilo del container de imagenes que  van abajo del slide */
+    .container {
+        position: relative;
+        top: 18%;
+        height: 100%;
+    }
+    .title-works{
+        left: 73px;
+        top: 67px;
+    }
+    .titulo{
+        transform: translate(9%, 73%);
+    }
+    .title-works h1 {
+        font-size: 59px;
+    }
+    .image-container {
+        top: 54px;
+        height: 225px;
+        margin-left: -8px;
+        margin-right: 30px;
+        right: 0;
+        width: 286px;
+        left: 24px;
+        margin-bottom: 111%;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 14px;
+    }
+     /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+        width: 364px;
+        position: relative;
+    }
+    .compartirBtn {
+        left: 55px;
+    }
+    .aboutMe img {
+        width: 262px;
+        height: 88%;
+        left: 7%;
+        top: -5%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 54px;
+        position: relative;
+        left: 9%;
+        width: 260px;
+        margin-left: 0px;
+        
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 17px;
+        left: -12px;
+        width: 352px;
+        bottom: 5%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 37px;
+        margin-bottom: 9px;
+    }
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 25px;
+    }
+    /* Estilos del carousel */
+    .carousel{
+        left: 16%;
+        width: 91%;
+        height: 100%;
+        top: 1%;
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 250px;
+        left: 1px;
+        padding-top: 39px;
+      }
+    .container {
+        height: 100%;
+        position: relative;
+        top: 3%;
+        width: 115%;
+        right: 19%;
+    
+    }
+    .overlay{
+        display: none;
+    }
+    .colunm {
+        height: 100%;
+        left: 9%;
+        position: relative;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+    
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        margin-right: 3px;
+        font-size: 35px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 30%;
+        right: 9%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 77px;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative;
+    }
+    }
+    
+/* -------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 392px) and (max-width: 415px) {
+    
+    .navegacionw .redes{
+        margin-left:14px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 46px;
+        height: 28px;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 0%;
+        margin-right: -2px;
+        transform: translate(275px, 320px);
+    }
+    h6{
+        font-size: 13px;
+    }
+    .titulo{
+        transform: translate(9%, 73%);
+    }
+    .title-works{
+        left: 85px;
+        top: 67px;
+    }
+    
+    .fondo{
+        height: 100%;
+    }
+    .title-works h1 {
+        font-size: 59px;
+    }
+    .menu{
+        transform: translate(-40%, 515%);
+        width: 178%;
+        font-size: 11px;
+    }
+    .titulo2 {
+        transform: translate(26%, -24%); 
+        width: 77%;
+    }
+    .image-container {
+        width: 98%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        margin-bottom: 71%;
+    }
+    .proyect{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .titulo p {
+        font-size: 26px;
+    }
+    .column{
+        margin-bottom: 11%;
+        width: 100%;
+        height: 143%;
+        top: 100%;
+        position: absolute;
+    }
+    .proyect2{
+        width: 100%;
+        height: 51%;
+        margin-bottom: 14px;
+
+    }
+    .row{
+        width: 124%;
+    }
+    .row img {
+        width: 122%;
+    }
+    .container2{
+        transform: translate(-14%, 8%);
+        width: 95%;
+    }
+    .categoria{
+    transform: translate(-24%, 6px);
+    width: 60%;
+    }
+    /* Titulo de works */
+    .works-title {    
+        left: 2%;
+    }
+    .works-title2 {
+        position: relative;
+        left: 16%;
+        bottom: 261px;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        height: 260px;
+      }
+      /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    
+    /* Estilos del carousel */
+    .carousel{
+        left: 20%;
+        top: 32px;
+        width: 91%;
+        height: 100%;
+    }
+    .image-container {
+        top: -9px;
+        height: 230px;
+        margin-left: 5px;
+        margin-right: 30px;
+        right: 0px;
+        margin-bottom: 112%;
+    }
+    .carousel-item video {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 6px 11px 6px 11px;
+        font-size: 14px;
+    }
+       /* Contenedor de datos de contacto */
+       .aboutMe{
+        top: 11%;
+        width: 384px;
+        position: relative;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 54px;
+        position: relative;
+        left: 13%;
+        width: 265px;
+        margin-left: 0px;
+    }
+    .aboutMe img {
+        width: 309px;
+        height: 100%;
+        position: relative;
+        bottom: 2%;
+        border-radius: 20px;
+        left: 4%;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 19px;
+        position: relative;
+        width: 98%;
+        bottom: -2%;
+        left: -4%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 41px;
+        margin-bottom: 10px;
+    }
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 27px;
+    }
+    .overlay{
+        display: none;
+    }
+    
+    
+    .container {
+        height: 100%;
+        right: 16%;
+        position: relative;
+        top: 1%;
+    }
+    .colunm {
+        height: 100%;
+        position: relative;
+        left: 16%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 102%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+    
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        margin-right: 3px;
+        font-size: 35px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 30%;
+        right:11%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 77px;
+        position: relative;
+        margin-bottom: 10px;   
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative;
+    }
+    }
+
+/* ------------------------------------------------------------------------------------------------ */
+@media screen and (min-width: 416px) and (max-width: 430px) {
+   
+  /* Estilo a etiqueta img de la clase redes */
+.redes img{
+    width: 46px;
+    height: 28px;
+}
+  /* Estilo a clase ig de la clase redes */
+.redes .ig{
+    width: 32px;
+}
+/* Menu de navegaciòn */
+.navegacion{
+    padding: 6px 11px 6px 11px;
+    margin-bottom: 0%;
+    margin-right: -2px;
+}
+.title-works{
+    left: 76px;
+    top: 60px;
+}
+.titulo{
+    transform: translate(9%, 73%);
+}
+.title-works h1 {
+    font-size: 64px;
+}
+h6 {
+    font-size: 13px;
+}.menu{
+    transform: translate(-42%, 515%);
+        width: 178%;
+        font-size: 11px;
+}
+.titulo2 {
+    transform: translate(28%, -17%);
+}
+.overlay{
+    display: none;
+}
+.image-container {
+    width: 98%;
+    position: relative;
+    top: 44px;
+    height: 233px;
+    margin-left: 61px;
+    margin-right: 30px;
+    right: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-bottom: 87%;
+}
+.proyect{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.titulo2 {
+    transform: translate(29%, -14%); 
+    width: 77%;
+}
+.titulo p {
+    font-size: 26px;
+}
+.column{
+    margin-bottom: 11%;
+    width: 100%;
+    height: 149%;
+    top: 99%;
+    position: absolute;
+}
+.proyect2{
+    width: 100%;
+    height: 51%;
+    margin-bottom: 14px;
+}
+.row{
+    width: 117%;
+}
+.row img {
+    width: 120%;
+    transition: opacity 0.3s ease;
+}
+.container2{
+    transform: translate(-12%,9%);
+}
+.categoria{
+transform: translate(-25%, -12px);
+width: 60%;
+}
+
+/* Estilos del carousel */
+.carousel{
+    left: 20%;
+    width: 91%;
+    height: 100%;
+}
+.image-container {
+    top: -9px;
+    height: 230px;
+    margin-left: 5px;
+    margin-right: 30px;
+    right: 0px;
+    margin-bottom: 106%;
+}
+/* Estilos de botones de menu de navegacion */
+.navegacion .inicio {
+    padding: 6px 11px 6px 11px;
+    font-size: 14px;
+}
+   /* Contenedor de datos de contacto */
+   .aboutMe{
+    top: 11%;
+    width: 401px;
+    position: relative;
+}
+/* Estilos para etiquetas h1 de la pagina de contacto*/
+.aboutMe h1{
+    font-size: 54px;
+    position: relative;
+    left: 15%;
+    width: 266px;
+    margin-left: 0px;
+}
+/* Estilos para etiquetas p de la pagina de contacto*/
+.aboutMe p{
+    font-size: 23px;
+    position: relative;
+    left: -4%;
+    bottom: 0%;
+    width: 97%;
+}
+.aboutMe img {
+    width: 300px;
+    height: 97%;
+    bottom: 5%;
+    left: 8%;
+}
+.fondo{
+    height: 100%;
+}
+/* Estilos para el titulo */
+.titulo h1{
+    font-size: 41px;
+    margin-bottom: 7px;
+}
+/* Estilo para parrafo debajo del titulo */
+.titulo p{
+    font-size: 28px;
+}
+/* Union de los slide */
+.carousel-inner {
+    height: 100%;
+}
+/* Bordes de imagenes del slide */
+.imagen-work{
+    border-radius: 17px;
+    height: 243px;
+    left: 1px;
+}
+.container {
+    height: 100%;
+    right: 14%;
+    position: relative;
+    top: 3%;
+}
+.colunm {
+    height: 100%;
+    left: 16%;
+    position: relative;
+}
+/* margen para imagenes de abajo del slide */
+.colunm img{
+    border-radius: 5px;
+    width: 102%;
+    margin-bottom: -16px;
+    height: 100%;
+}
+
+/* Estilo para titulo de la clase work title */
+.works-title h1{
+    margin-right: 0px;
+    font-size: 40px;
+    position: relative;
+}
+/* Contenedor de datos de contacto */
+.contacto{
+    top: 30%;
+    right: 15%;
+}
+/* Estilos para etiquetas h1 de la pagina de contacto*/
+.contacto h2{
+    font-size: 77px;
+    position: relative;
+    margin-bottom: 10px;   
+}
+/* Estilos para etiquetas p de la pagina de contacto*/
+.contacto p{
+    font-size: 20px;
+    position: relative;
+}
+  }
+  
+  /* ------------------------------------------------------------------------------------------------ */
+  @media screen and (min-width: 431px) and (max-width: 767px) {
+
+   /* Estilo a etiqueta img de la clase redes */
+ .redes img{
+     width: 58px;
+     height: 33px;
+     margin-bottom: 20px;
+     background-color: transparent ;
+ }
+   /* Estilo a clase ig de la clase redes */
+ .redes .ig{
+     width: 32px;
+     text-decoration: none;
+     margin-right: 3px;
+     margin-left: 7px;
+     width: 39px;
+ }
+ /* Menu de navegaciòn */
+ .navegacion{
+     padding: 6px 11px 6px 11px;
+     margin-bottom: 0%;
+     margin-right: -2px;
+     transform: translate(635px, 320px);
+ }
+ .fondo{
+    height: 100%;
+}
+ .title-works{
+    left: 54px;
+    bottom: 313px;
+}
+.titulo{
+    transform: translate(9%, 93%);
+}
+.title-works h1 {
+    font-size: 71px;
+        left: 77%;
+    position: relative;
+}
+.row {
+    width: 94%;
+}
+.row img {
+    width: 110%;
+}
+.container2 {
+    transform: translate(3%, 12%);
+}
+.categoria {
+    width: 162px;
+}
+.menu{
+    transform: translate(67%, 104%);
+        width: 326px;
+}
+.menu ul li {
+    margin-left: 9px;
+}
+.titulo2{
+    transform: translate(2%, 6%);
+}
+.image-container {
+    top: 31px;
+}
+.column {
+    height: 119%;
+}
+.proyect2 {
+    width: 100%;
+    height: 53%;
+    margin-bottom: 7px;
+}
+ /* Estilos de botones de menu de navegacion */
+ .navegacion .inicio {
+     padding: 11px 21px 11px 21px;
+ }
+    /* Contenedor de datos de contacto */
+    .aboutMe{
+     top: 11%;
+     width: 100%;
+ }
+ /* Estilos para etiquetas h1 de la pagina de contacto*/
+ .aboutMe h1{
+    font-size: 58px;
+    position: relative;
+    left: 27%;
+    width: 272px;
+    margin-left: 0px;
+    top: 6%;
+ }
+ .aboutMe img {
+    width: 300px;
+        height: 106%;
+        position: relative;
+        bottom: -8%;
+        border-radius: 20px;
+        right: 13%;
+}
+.text-about {
+    width: 116%;
+}
+ /* Estilos para etiquetas p de la pagina de contacto*/
+ .aboutMe p{
+    font-size: 17px;
+    position: relative;
+    left: 38%;
+    width: 63%;
+ }
+ /* Estilos para el titulo */
+ .titulo h1{
+     font-size: 61px;
+ }
+ /* Estilo para parrafo debajo del titulo */
+ .titulo p{
+     font-size: 28px;
+ }
+ /* Estilos del carousel */
+ .carousel{
+     width: 109%;
+ }
+ /* Union de los slide */
+ .carousel-inner {
+     height: 100%;
+ }
+ .menu ul {
+    width: 139%;
+}
+.titulo2 h1 {
+    font-size: 21px;
+}
+.titulo2 h2 {
+    font-size: 14px;
+}
+ /* Bordes de imagenes del slide */
+ .imagen-work{
+     border-radius: 17px;
+     height: 430px;
+     top: 109px;
+     left: 1px;
+     padding-top: 52px;
+ }
+ .container {
+     height: 100%;
+ }
+ .colunm {
+     height: 100%;
+ }
+ /* margen para imagenes de abajo del slide */
+ .colunm img{
+     border-radius: 5px;
+     width: 102%;
+     margin-bottom: -16px;
+     height: 100%;
+ }
+ 
+ /* Estilo para titulo de la clase work title */
+ .works-title h1{
+     margin-right: 0px;
+     font-size: 52px;
+     position: relative;
+ }
+ /* Contenedor de datos de contacto */
+ .contacto{
+     top: 40%;
+ }
+ /* Estilos para etiquetas h1 de la pagina de contacto*/
+ .contacto h2{
+     font-size: 77px;
+     position: absolute;
+     left: 0%;
+     bottom: 195px;
+     margin-bottom: 10px;
+ }
+ /* Estilos para etiquetas p de la pagina de contacto*/
+ .contacto p{
+     font-size: 20px;
+     position: relative;
+ }
+ .compartirBtn{
+    left: 59px;
+}
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+     /* Estilo a etiqueta img de la clase redes */
+   .redes img{
+       width: 58px;
+       height: 33px;
+       margin-bottom: 20px;
+       background-color: transparent ;
+   }
+     /* Estilo a clase ig de la clase redes */
+   .redes .ig{
+       width: 32px;
+       text-decoration: none;
+       margin-right: 3px;
+       margin-left: 7px;
+       width: 39px;
+   }
+   /* Menu de navegaciòn */
+   .navegacion{
+       padding: 6px 11px 6px 11px;
+       margin-bottom: 0%;
+       margin-right: -2px;
+       transform: translate(843px, 320px);
+   }
+   .title-works{
+    left: 54px;
+    bottom: 313px;
+}
+.titulo{
+    transform: translate(9%, 93%);
+}
+.title-works h1 {
+    font-size: 71px;
+        left: 132%;
+    position: relative;
+}
+
+.row {
+    width: 78%;
+}
+   /* Estilos de botones de menu de navegacion */
+   .navegacion .inicio {
+       padding: 11px 21px 11px 21px;
+   }
+   /* Menu de navegaciòn */
+   .navegacionw{ 
+       position: absolute;
+       margin-right: 6px;
+       top: 300%;
+   }
+   .navegacionw .inicio {
+       padding: 11px 21px 11px 21px;
+   }
+      
+   /* Estilos para etiquetas h1 de la pagina de contacto*/
+   .aboutMe h1{
+       font-size: 67px;
+       position: relative;
+       left: 33%;
+       margin-left: 0px;
+       width: 60%;
+       top: 6%;
+   }
+   /* Estilos para etiquetas p de la pagina de contacto*/
+   .aboutMe p{
+       font-size: 19px;
+       left: 27%;
+       width: 77%;
+   }
+   .aboutMe {
+    left: 3%;
+   }
+   .aboutMe img{
+    height: 105%;
+    bottom: -5%;
+   }
+   .titulo h1{
+       font-size: 71px;
+   }
+   /* Estilo para parrafo debajo del titulo */
+   .titulo p{
+       font-size: 37px;
+   }
+   /* Estilos del carousel */
+   .carousel{
+       width: 106%; 
+   }
+   .titulo2{
+    width: 30%;
+    left: 6%;
+   }
+   /* Union de los slide */
+   .carousel-inner {
+       height: 100%;
+   }
+   /* Bordes de imagenes del slide */
+   .imagen-work{
+       border-radius: 17px;
+       height: 500px;
+       top: 109px;
+       left: 1px;
+     }
+     .container {
+       height: 100%;
+   }
+   .colunm {
+       height: 100%;
+   }
+   /* margen para imagenes de abajo del slide */
+   .colunm img{
+       border-radius: 5px;
+       width: 102%;
+       margin-bottom: -16px;
+       height: 100%;
+   }
+    
+   .menu{
+    transform: translate(-3%, 126%);
+   }
+   /* Estilo para titulo de la clase work title */
+   .works-title h1{
+       font-size: 65px;
+       position: relative;
+   }
+   /* Contenedor de datos de contacto */
+   .contacto{
+       top: 37%;
+       left: 15%;
+   }
+   .container2 {
+    margin: 20px;
+    transform: translate(1%, 0%);
+    width: 91%;
+}
+.row {
+    width: 102%;
+}
+   .categoria {
+    transform: translate(228%, -12px);
+    font-family: 'jost';
+    color: white;
+    width: 200px;
+}
+   /* Estilos para etiquetas h1 de la pagina de contacto*/
+   .contacto h2{
+       font-size: 79px;
+       left: -6px;
+       position: absolute;
+       bottom: 195px;
+       margin-bottom: 10px;
+   }
+   /* Estilos para etiquetas p de la pagina de contacto*/
+   .contacto p{
+       font-size: 20px;
+       position: relative;   
+   }
+   .compartirBtn{
+    left: 60px;
+}
+   }
+   
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .title-works { 
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 9%;
+        margin-right: 22px;
+        bottom: 0;
+        right: 0;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+        width: 100%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 63px;
+        position: relative;
+        left: 33%;
+        width: 379px;
+        margin-left: 0px;
+    }
+    .aboutMe img {
+        height: 100%;
+    position: relative;
+    bottom: 0%;
+    border-radius: 20px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 21px;
+        position: relative;
+        width: 75%;
+        left: 25%;
+    }
+    .text-about{
+        width: 103%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+    .titulo{
+        transform: translate(9%, 83%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 628px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        width: 100%;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 8px;
+      }
+    .container {
+        height: 100%;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 64px;
+        left: 6%;
+        position: relative;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 35%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 77px;
+        position: absolute;
+        bottom: 107%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    .image-container {
+        top: -49px;
+        height: 304px;
+        left: -43px;
+        margin-left: 61px;
+        margin-right: 30px;
+        width: 103%;
+        margin-bottom: 10%;
+    }
+    .mosaico{
+        top: 7%;
+    }
+    .titulo2{
+        width: 29%;
+    }
+    .column{
+        height: 120%;
+    }
+    .row {
+        width: 100%;
+    }
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{ 
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+    }
+    /* ----------------------------------------------------------------------------------- */
+    /* Media query para anchos entre 1400px y 1600px */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    .aboutMe h1 {
+        font-family: 'jost', sans-serif;
+        font-size: 90px;
+        margin-left: 26%;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 9%;
+        margin-right: 22px;
+        transform: translate(1461px, 349px);
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 74px;
+        position: relative;
+        left: 32%;
+        width: 354px;
+        margin-left: 0px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 24px;
+        position: relative;
+        width: 80%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+    .titulo{
+        transform: translate(9%, 73%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+    }
+    
+    .column {
+        height: 121%;
+        width: 35%;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0;
+        width: 100%;
+        position: relative;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 597px;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 100%;
+      }
+    .container {
+        height: 100%;
+        padding: 0px;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+    .aboutMe img {
+        width: 300px;
+        height: 97%;
+        position: relative;
+        bottom: -1%;
+        right: 11%;
+        border-radius: 20px;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 44px;
+        left: 7%;
+        position: relative;
+        top: 17px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 35%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 68px;
+        position: absolute;
+        bottom: 100%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    .image-container {
+        top: -4px;
+        height: 406px;
+        left: 15px;
+        width: 100%;
+        margin-bottom: 9%;
+    }  
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  @media (min-width: 1601px) {
+     
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    /* Menu de navegaciòn */
+    .navegacion{
+        padding: 6px 11px 6px 11px;
+        margin-bottom: 9%;
+        margin-right: 22px;
+    }
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 74px;
+        position: relative;
+        left: 32%;
+        width: 356px;
+        margin-left: 0px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 24px;
+        position: relative;
+        width: 75%;
+        left: 15%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+    .titulo{
+        transform: translate(9%, 83%);
+    }
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        height: 100%;
+        width: 100%;
+        top: 1%;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 100%;
+      }
+    .container {
+        height: 100%;
+        padding: 0px;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 637px;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 48px;
+        left: 7%;
+        position: relative;
+        top: 22px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 35%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 68px;
+        position: absolute;
+        bottom: 100%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    .image-container {
+        height: 415px;
+        margin-bottom: 10%;
+    }
+   
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{     
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }
