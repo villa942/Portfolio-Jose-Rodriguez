@@ -1,0 +1,470 @@
+ 
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+    .title-works { 
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+        width: 100%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 63px;
+        position: relative;
+        left: 33%;
+        width: 379px;
+        margin-left: 0px;
+    }
+    .aboutMe img {
+        height: 100%;
+    position: relative;
+    bottom: 0%;
+    border-radius: 20px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 21px;
+        position: relative;
+        width: 53%;
+        left: 47%;
+    }
+    .text-about{
+        width: 103%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+   
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 628px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        width: 100%;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 8px;
+      }
+    .container {
+        height: 100%;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 64px;
+        left: 6%;
+        position: relative;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 35%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 77px;
+        position: absolute;
+        bottom: 107%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    .image-container {
+        top: -49px;
+        height: 304px;
+        left: -43px;
+        margin-left: 61px;
+        margin-right: 30px;
+        width: 103%;
+        margin-bottom: 10%;
+    }
+    .mosaico{
+        top: 7%;
+    }
+    .titulo2{
+        width: 29%;
+    }
+    .column{
+        height: 120%;
+    }
+    .row {
+        width: 100%;
+    }
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{ 
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+    }
+    /* ----------------------------------------------------------------------------------- */
+    /* Media query para anchos entre 1400px y 1600px */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+    .aboutMe h1 {
+        font-family: 'jost', sans-serif;
+        font-size: 90px;
+        margin-left: 26%;
+    }
+    
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 74px;
+        position: relative;
+        left: 32%;
+        width: 354px;
+        margin-left: 0px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 24px;
+        position: relative;
+        width: 68%;
+        left: 32%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+   
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        width: 100%;
+    }
+    .container2 {
+        width: 100%;
+    }
+    
+    .column {
+        height: 121%;
+        width: 35%;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin: 35px 0;
+        width: 100%;
+        position: relative;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 597px;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 100%;
+      }
+    .container {
+        height: 100%;
+        padding: 0px;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+        height: 100%;
+    }
+    .aboutMe img {
+        width: 300px;
+        height: 97%;
+        position: relative;
+        bottom: -1%;
+        right: 11%;
+        border-radius: 20px;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 44px;
+        left: 7%;
+        position: relative;
+        top: 17px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 300px;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 68px;
+        position: absolute;
+        bottom: 100%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    .image-container {
+        top: -4px;
+        height: 406px;
+        left: 15px;
+        width: 100%;
+        margin-bottom: 9%;
+    }  
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  @media (min-width: 1601px) {
+     
+    .title-works {
+        left: 439px;
+        bottom: 340px;
+    }
+      /* Estilo a etiqueta img de la clase redes */
+    .redes img{
+        width: 58px;
+        height: 33px;
+        margin-bottom: 20px;
+        background-color: transparent ;
+    }
+      /* Estilo a clase ig de la clase redes */
+    .redes .ig{
+        width: 32px;
+        text-decoration: none;
+        margin-right: 3px;
+        margin-left: 7px;
+        width: 39px;
+    }
+   
+    /* Estilos de botones de menu de navegacion */
+    .navegacion .inicio {
+        padding: 11px 21px 11px 21px;
+    }
+       /* Contenedor de datos de contacto */
+    .aboutMe{
+        top: 11%;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .aboutMe h1{
+        font-size: 74px;
+        position: relative;
+        left: 32%;
+        width: 356px;
+        margin-left: 0px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .aboutMe p{
+        font-size: 24px;
+        position: relative;
+        width: 75%;
+        left: 29%;
+    }
+    /* Estilos para el titulo */
+    .titulo h1{
+        font-size: 75px;
+    }
+   
+    /* Estilo para parrafo debajo del titulo */
+    .titulo p{
+        font-size: 40px;
+    }
+    /* Estilos del carousel */
+    .carousel {
+        height: 100%;
+        width: 100%;
+        top: 1%;
+    }
+    /* Union de los slide */
+    .carousel-inner {
+        height: 100%;
+    }
+    /* Bordes de imagenes del slide */
+    .imagen-work{
+        border-radius: 17px;
+        height: 100%;
+      }
+    .container {
+        height: 100%;
+        padding: 0px;
+    }
+    .works-title2 {
+        position: relative;
+        left: 5%;
+        bottom: 637px;
+    }
+    h3{
+        font-size: 39px;
+    }
+    h6{
+        font-size: 21px;
+    }
+    .colunm {
+        height: 100%;
+    }
+    /* margen para imagenes de abajo del slide */
+    .colunm img{
+        border-radius: 5px;
+        width: 85%;
+        margin-bottom: -16px;
+    }
+     
+    /* Estilo para titulo de la clase work title */
+    .works-title h1{
+        font-size: 48px;
+        left: 7%;
+        position: relative;
+        top: 22px;
+    }
+    /* Contenedor de datos de contacto */
+    .contacto{
+        top: 300px;
+    }
+    /* Estilos para etiquetas h1 de la pagina de contacto*/
+    .contacto h2{
+        font-size: 68px;
+        position: absolute;
+        bottom: 100%;
+        margin-bottom: 10px;
+    }
+    /* Estilos para etiquetas p de la pagina de contacto*/
+    .contacto p{
+        font-size: 20px;
+        position: relative; 
+    }
+    
+   
+    .title-works{
+        text-align: center;
+        color: white;
+        font-family: 'jost', sans-serif;
+        position: absolute;
+        left: 468px;
+        top: 39px;
+    }
+    .title-works h1{     
+        font-size: 96px;
+    }
+    .compartirBtn{
+        position: relative;
+        left: 60px;
+    }
+  }

@@ -1,18 +1,11 @@
 <?php
+
+// Título y descripción para SEO
+$titulo = "Naturals | Commercials | José Rodríguez Cinematographer";
+$descripcion = "Naturals es un proyecto dirigido por Camilo Matiz y producido por Colombo Films. Este comercial destaca la belleza natural y la autenticidad de los productos, mostrando un enfoque fresco y orgánico en la presentación de la marca.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>Naturals | José Rodriguez  | Commercials</title>
-</head>
-
 <body class="work-body">
     <main>
         <!-- Menu de navegaciòn -->

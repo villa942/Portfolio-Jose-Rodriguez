@@ -1,17 +1,10 @@
 <?php
+
+$titulo = "Films 35 mm | Short Film | José Rodríguez Cinematographer";
+$descripcion = "Short Film by José Rodríguez Cinematographer. Explore the latest project Films 35 mm, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>Films 35 | José Rodriguez  | Narravite</title>
-</head>
 
 <body class="work-body">
     <main>
@@ -48,6 +41,7 @@ require ("../../navegacion.php");
                         <!-- Titulo del proyecto -->
                         <div class="works-title mt-1">
                             <h1>Films 35 mm</h1>
+                            <h2>Dir. Jose Rodriguez <br> Escac </h2>
                         </div>
                         <!-- Video del proyecto -->
                         <video class=" " src="../../video/shortfilms/proyecto7.mp4" autoplay controls loop></video>

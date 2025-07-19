@@ -1,18 +1,10 @@
 <?php
+
+$titulo = "DSM | Commercials | José Rodríguez Cinematographer";
+$descripcion = "DSM es un proyecto dirigido por Juan Camilo Villareal y producido por Moon Station Media. Este comercial destaca la innovación y la creatividad en el ámbito de la moda, mostrando un enfoque único y artístico en la presentación de las prendas.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>DSM | José Rodriguez  | Commercials</title>
-</head>
-
 <body class="work-body">
     <main>
         <!-- Menu de navegaciòn -->

@@ -80,8 +80,8 @@ body {
     margin-right: 24px;
     color: white;
     font-family: 'jost', sans-serif;
-    right: 0;
-    bottom: 0;
+   /*  right: 0;
+    bottom: 0; */
 }
 /* Botones de menu de navegacion */
 .navegacion ul{

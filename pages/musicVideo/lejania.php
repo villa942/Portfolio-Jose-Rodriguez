@@ -1,17 +1,11 @@
 <?php
+
+$titulo = "Fashion Fades | Music Video | José Rodríguez Cinematographer";
+$descripcion = "Music Video by José Rodríguez Cinematographer. Explore the latest project Fashion Fades, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>Lejanía | José Rodriguez  | Music Video</title>
-</head>
 
 <body class="work-body">
     <main>

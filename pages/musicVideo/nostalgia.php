@@ -1,7 +1,7 @@
 <?php
 
-$titulo = "Vivienda | Commercials | José Rodríguez Cinematographer";
-$descripcion = "Commercials by José Rodríguez Cinematographer. Explore the latest projects including Vivienda, showcasing exceptional cinematography and storytelling.";
+$titulo = "Nostalgia | Music Video | José Rodríguez Cinematographer";
+$descripcion = "Music Video by José Rodríguez Cinematographer. Explore the latest project Nostalgia, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
@@ -41,28 +41,30 @@ require ("../../navegacion.php");
                     <div class="carousel-item active">
                         <!-- Titulo del proyecto -->
                         <div class="works-title mt-1">
-                            <h1>Vivienda</h1>
-                            <h2>Dir. Camilo Matiz <br>
-                                Colombo Films </h2>
+                            <h1>Nostalgia</h1>
+                            <h2>Dir. María Gómez <br>
+                                All Films </h2>
                         </div>
                         <!-- Video del proyecto -->
-                        <video class=" " src="../../video/comercials/proyecto18.mp4" autoplay controls loop></video>
+                        <video class=" " src="../../video/musical/proyecto23.mp4" autoplay controls loop></video>
                         <a class=" btn btn-outline-light reel" style="visibility: hidden;"
                             href="../video/video1.php">Play
                             reel</a>
-                        <article class="container">
+                        <article >
                             <!-- Carousel de imagenes -->
                             <div class="colunm">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen1.webp"
-                                    loading="eager" alt="Image 1 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen2.webp"
-                                    loading="eager" alt="Image 2 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen3.webp"
-                                    loading="eager" alt="Image 3 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen4.webp"
-                                    loading="eager" alt="Image 4 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen5.webp"
-                                    loading="eager" alt="Image 5 of Vivienda">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen1.webp"
+                                    loading="eager" alt="Image 1 of Nostalgia">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen2.webp"
+                                    loading="eager" alt="Image 2 of Nostalgia">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen3.webp"
+                                    loading="eager" alt="Image 3 of Nostalgia">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen4.webp"
+                                    loading="eager" alt="Image 4 of Nostalgia">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen5.webp"
+                                    loading="eager" alt="Image 5 of Nostalgia">
+                                <img class="lazy-image" src="../../imagen/musical/proyecto23/imagen6.webp"
+                                    loading="eager" alt="Image 6 of Nostalgia">
                             </div>
                         </article>
                     </div>

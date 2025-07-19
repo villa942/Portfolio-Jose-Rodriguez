@@ -1,20 +1,12 @@
 <?php
+
+$titulo = "Works José Rodriguez | Cinematographer";
+$descripcion = "Explore the most important works of José Rodríguez, a talented Cinematographer known for capturing stunning visuals and telling compelling stories through his camera. Discover his portfolio of notable projects.";
+
 // Incluir menú de navegación
-include('../navegacion.php');
+require('../navegacion.php');
 ?>
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore the most important works of José Rodríguez, a talented Cinematographer known for capturing stunning visuals and telling compelling stories through his camera. Discover his portfolio of notable projects." />
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <title>Works José Rodriguez | Cinematographer</title>
-</head>
-
-<body>
     <main>
         <!-- Menu de navegaciòn -->
         <div class="menu">

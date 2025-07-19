@@ -1,17 +1,11 @@
 <?php
+
+$titulo = "Naturals | Commercials | José Rodríguez Cinematographer";
+$descripcion = "Commercials by José Rodríguez Cinematographer. Explore the latest projects including Nike, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>NIKE | José Rodriguez  | Commercials</title>
-</head>
 
 <body class="work-body">
     <main>
@@ -48,7 +42,7 @@ require ("../../navegacion.php");
                         <!-- Titulo del proyecto -->
                         <div class="works-title mt-1">
                             <h1>NIKE</h1>
-                            <h2>Dir. Javier Signorelli <br>
+                            <h2>Dir. Javier Signorelli <br>Antiestatico
                             </h2>
                         </div>
                         <!-- Video del proyecto -->

@@ -1,7 +1,7 @@
 <?php
 
-$titulo = "Vivienda | Commercials | José Rodríguez Cinematographer";
-$descripcion = "Commercials by José Rodríguez Cinematographer. Explore the latest projects including Vivienda, showcasing exceptional cinematography and storytelling.";
+$titulo = "Real Madrid Players | Commercials | José Rodríguez Cinematographer";
+$descripcion = "Commercials by José Rodríguez Cinematographer. Explore the latest projects including Real Madrid Players, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
@@ -41,28 +41,27 @@ require ("../../navegacion.php");
                     <div class="carousel-item active">
                         <!-- Titulo del proyecto -->
                         <div class="works-title mt-1">
-                            <h1>Vivienda</h1>
-                            <h2>Dir. Camilo Matiz <br>
-                                Colombo Films </h2>
+                            <h1>Real Madrid Players</h1>
+                            <h2>Dir. Francisco Alcaro | Dir. María Gómez <br>
+                            Antiestatico
+                            </h2>
+                            <h2 style="right:48%; position: relative; font-size:25px">WIP</h2>
                         </div>
+                        
                         <!-- Video del proyecto -->
-                        <video class=" " src="../../video/comercials/proyecto18.mp4" autoplay controls loop></video>
+                        <video class=" " src="../../video/comercials/proyecto24.mov" autoplay controls loop></video>
                         <a class=" btn btn-outline-light reel" style="visibility: hidden;"
-                            href="../video/video1.php">Play
-                            reel</a>
+                        href="../video/video3.php">Play
+                        reel</a>
                         <article class="container">
                             <!-- Carousel de imagenes -->
                             <div class="colunm">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen1.webp"
-                                    loading="eager" alt="Image 1 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen2.webp"
-                                    loading="eager" alt="Image 2 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen3.webp"
-                                    loading="eager" alt="Image 3 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen4.webp"
-                                    loading="eager" alt="Image 4 of Vivienda">
-                                <img class="lazy-image" src="../../imagen/commercial/proyecto18/imagen5.webp"
-                                    loading="eager" alt="Image 5 of Vivienda">
+                                <img src="../../imagen/commercial/proyecto24/imagen2.webp" loading="eager" id="proyecto24"
+                                    class="lazy-image" alt="Kylian Mbappé with Real Madrid">
+                                <img class="lazy-image" src="../../imagen/commercial/proyecto24/imagen1.webp"
+                                loading="eager" alt="Vini Jr with Real Madrid">
+                                <img class="lazy-image" src="../../imagen/commercial/proyecto24/imagen3.webp"
+                                loading="eager" alt="Dani Carvajal with Real Madrid">
                             </div>
                         </article>
                     </div>
@@ -79,6 +78,7 @@ require ("../../navegacion.php");
                     if (entry.isIntersecting) {
                         entry.target.style.opacity = '1';
                         entry.target.style.transform = 'scale(1)'; // Restaurar la escala original
+                        
                         observer.unobserve(entry.target);
                     }
                 });

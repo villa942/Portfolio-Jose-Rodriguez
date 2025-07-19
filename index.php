@@ -11,6 +11,8 @@ require ("navegacion.php");
         content="Director of Photography for commercials, short films, and feature films has over 20 years of experience in the industry, working as a DOP, cinematographer, and gaffer.">
     <title>Jose Rodriguez | Cinematographer</title>
     <link rel="stylesheet" href="styles/principal.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
     <!-- Preconexión a CDN -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <!-- Carga diferida de CSS de Bootstrap -->
@@ -78,6 +80,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </ul>
         </nav>
     </article>
+    <script>
+  // Animación del título
+  gsap.from(".titulo h1", {
+    x: 100,
+    opacity: 0,
+    duration: 1,
+    ease: "power3.out"
+  });
+
+  gsap.from(".titulo h2", {
+    x: -100,
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power3.out"
+  });
+
+  // Animación de la navegación
+  gsap.from(".navegacion", {
+    y: 50,
+    opacity: 0,
+    duration: 1.2,
+    delay: 1,
+    ease: "power2.out"
+  });
+
+  // Animación de los íconos sociales
+  gsap.from(".navegacion .redes a", {
+    opacity: 0,
+    y: -20,
+    duration: 0.6,
+    stagger: 0.2,
+    delay: 1.3
+  });
+</script>
+
 </body>
 
 </html>

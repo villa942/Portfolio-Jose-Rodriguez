@@ -1,17 +1,11 @@
 <?php
+
+$titulo = "Banca Movil | Commercials | José Rodríguez Cinematographer";
+$descripcion = "Banca Movil es un proyecto dirigido por Camilo Matiz y producido por Colombo Films. Este comercial destaca la innovación y la accesibilidad de los servicios bancarios móviles, mostrando cómo facilitan la vida diaria de las personas.";
+
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>Banca Movil | José Rodriguez  | Commercials</title>
-</head>
 
 <body class="work-body">
     <main>

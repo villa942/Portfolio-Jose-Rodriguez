@@ -1,17 +1,11 @@
 <?php
+
+$titulo = "Late Bloomer | Short Film | José Rodríguez Cinematographer";
+$descripcion = "Short Film by José Rodríguez Cinematographer. Explore the latest project Late Bloomer, showcasing exceptional cinematography and storytelling.";
 // Incluir menú de navegación
 require ("../../navegacion.php");
 ?>
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../imagen/logos/logos.ico">
-    <link rel="stylesheet" href="../../styles/proyecto.css">
-    <title>Late Bloomer  | José Rodriguez  | Narravite</title>
-</head>
 
 <body class="work-body">
     <main>
