@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     display: flex; /* Evita la barra de desplazamiento horizontal */
     background-color: rgb(15, 15, 15);    
+     font-family:'jost', sans-serif !important;
 }
 .works-title{
     position: relative;
@@ -16,7 +17,6 @@ body {
     margin-left: auto;
     margin-right: 90px;
     margin-top: 0px;
-    font-family:'jost', sans-serif;
     font-size: 75px;
 }
 /* Estilo para titulo de proyectos que tienen imagen de portada */
@@ -31,7 +31,6 @@ body {
     margin-left: auto;
     margin-right: 90px;
     margin-top: 0px;
-    font-family:'jost', sans-serif;
     font-size: 75px;
 }
 /* Body de la pagina work  */
@@ -79,16 +78,15 @@ body {
     margin-bottom: 0px;
     margin-right: 24px;
     color: white;
-    font-family: 'jost', sans-serif;
-   /*  right: 0;
-    bottom: 0; */
+    right: 0;
+    bottom: 0;
 }
 /* Botones de menu de navegacion */
 .navegacion ul{
-    list-style-type: none; /* Elimina los marcadores de lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
-    margin: 0; /* Elimina el margen predeterminado de la lista */
-    display: flex; /* Establece el contenedor como un contenedor flexible */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
     flex-direction: column; 
 }
 /* Separacion entre botones del menù */
@@ -113,18 +111,16 @@ button {
 .titulo{
     position: absolute;
     background-color: transparent !important; 
-    transform: translate(30%, 95%);
+    transform: translate(-10%, 95%);
     color: white;   
 }
 /* Estilos para el titulo */
 .titulo h1 {
-    font-family: 'jost', sans-serif;
     font-size: 47px;
     margin-bottom: 0px;
 }
 /* Estilo para parrafo debajo del titulo */
 h2{
-    font-family: 'jost', sans-serif;
     font-size: 28px;
 }
 /* Estilos para todas las etiquetas "VIDEO" */
@@ -171,7 +167,6 @@ h2{
     bottom: 0;
     }
     .titulo h1 {
-        font-family: 'jost', sans-serif;
         font-size: 37px;
         margin-bottom: 12px;
     }
@@ -376,7 +371,7 @@ h2{
  }
  /* Estilos para el titulo */
  .titulo h1{
-     font-size: 61px;
+     font-size: 45px;
  }
  /* Estilo para parrafo debajo del titulo */
  h2{
@@ -425,7 +420,7 @@ h2{
        padding: 11px 21px 11px 21px;
    }
    .titulo h1{
-       font-size: 71px;
+       font-size: 48px;
    }
    /* Estilo para parrafo debajo del titulo */
    h2{
@@ -473,7 +468,7 @@ h2{
         font-size: 56px;
     }
     .titulo{
-        transform: translate(29%, 44%);
+        transform: translate(3%, 44%);
     }
     /* Estilo para parrafo debajo del titulo */
     h2{
@@ -571,9 +566,7 @@ h2{
     .titulo h1{
         font-size: 56px;
     }
-    .titulo{
-        transform: translate(40%, 83%);
-    }
+    
     /* Estilo para parrafo debajo del titulo */
     h2{
         font-size: 36px;

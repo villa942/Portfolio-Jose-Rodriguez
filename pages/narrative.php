@@ -45,6 +45,7 @@ require ('../navegacion.php');
             <div class="overlay">Camino de la raíz <p> Dir. Diego Cardenas <br> Escac</p><br></div>
             </a>
         </article>
+
         <!-- Imagenes del proyecto -->
         <article class="row">
             <a href="narrative/scum" class="project-container">

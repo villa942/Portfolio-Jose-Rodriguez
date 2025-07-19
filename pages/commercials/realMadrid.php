@@ -45,7 +45,7 @@ require ("../../navegacion.php");
                             <h2>Dir. Francisco Alcaro | Dir. María Gómez <br>
                             Antiestatico
                             </h2>
-                            <h2 style="right:48%; position: relative; font-size:25px">WIP</h2>
+                            <h2 style="right:43%; position: relative; font-size:25px">WIP</h2>
                         </div>
                         
                         <!-- Video del proyecto -->

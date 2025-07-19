@@ -1,3 +1,4 @@
+/*Formulario de contact*/
 .form-group {
     margin: 10px 0;
     text-align: left;
@@ -57,7 +58,7 @@
     left: 51%;
     position: fixed;
     width: 40%;
-    bottom: 12%;
+    bottom: 6%;
 
 }
 .font{
@@ -106,7 +107,7 @@
 @media screen and (min-width: 431px) and (max-width: 767px) {
 
     .formulario {
-        bottom: 4%;
+        bottom: 1%;
         width: 40%;
     }
 }

@@ -2,7 +2,7 @@
 require ("navegacion.php");
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,13 @@ require ("navegacion.php");
     <meta name="description"
         content="Director of Photography for commercials, short films, and feature films has over 20 years of experience in the industry, working as a DOP, cinematographer, and gaffer.">
     <title>Jose Rodriguez | Cinematographer</title>
-    <link rel="stylesheet" href="styles/principal.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <meta name="keywords" content="Jose Rodriguez, Director de Fotografía, Cinematographer, DOP, cine publicitario, cortometrajes, fotografía cinematográfica">
+<link rel="canonical" href="https://joserodriguezdop.com/">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Jose Rodriguez">
+<meta name="publisher" content="Jose Rodriguez">
 
+    <link rel="stylesheet" href="styles/principal.css">
     <!-- Preconexión a CDN -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <!-- Carga diferida de CSS de Bootstrap -->
@@ -40,6 +44,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
+    <main>
+        
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6LF9DZD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -58,64 +64,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <div class="redes">
             <!-- Enlace al perfil de Instagram -->
             <a href="https://www.instagram.com/jotarodriguez28/" title="Instagram jotarodriguez28 " target="_blank">
-                <img src="imagen/logos/igs.webp" class="ig" title="Follow me in instagram" alt="Logo de Instagram">
+                <img src="imagen/logos/igs.webp" class="ig" title="Jose Rodríguez in instagram" alt="Logo de Instagram">
             </a>
             <!-- Enlace al perfil de IMDB  -->
             <a href="https://www.imdb.com/name/nm7582176/" title="Perfil en IMDB de jose rodriguez" target="_blank">
-                <img src="imagen/logos/imdbwss.webp" title="Follow me in IMDB" alt="Logo de IMDB">
+                <img src="imagen/logos/imdbwss.webp" title="Jose rodriguez in IMDB" alt="Logo de IMDB">
             </a>
         </div>
         <!-- Botones para navegar en la pagina -->
         <nav>
             <ul class="navbar-nav ms-auto text-end">
                 <li class="nav-item">
-                    <a class="btn btn-outline-light inicio" title="Page Contact" href="pages/contact.php">Contact</a>
+                    <a class="btn btn-outline-light inicio" lang="en" title="Page Contact" href="pages/contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-light inicio" title="Page with my proyects of Cinematographer" href="pages/works.php">Works</a>
+                    <a class="btn btn-outline-light inicio" lang="en" title="Page with my proyects of Cinematographer" href="pages/works.php">Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-light inicio" title="Page About me" href="pages/about-me.php">About Me</a>
+                    <a class="btn btn-outline-light inicio" title="Page About me" lang="en" href="pages/about-me.php">About Me</a>
                 </li>
             </ul>
         </nav>
     </article>
-    <script>
-  // Animación del título
-  gsap.from(".titulo h1", {
-    x: 100,
-    opacity: 0,
-    duration: 1,
-    ease: "power3.out"
-  });
-
-  gsap.from(".titulo h2", {
-    x: -100,
-    opacity: 0,
-    duration: 1,
-    delay: 0.5,
-    ease: "power3.out"
-  });
-
-  // Animación de la navegación
-  gsap.from(".navegacion", {
-    y: 50,
-    opacity: 0,
-    duration: 1.2,
-    delay: 1,
-    ease: "power2.out"
-  });
-
-  // Animación de los íconos sociales
-  gsap.from(".navegacion .redes a", {
-    opacity: 0,
-    y: -20,
-    duration: 0.6,
-    stagger: 0.2,
-    delay: 1.3
-  });
-</script>
-
+    </main>
 </body>
 
 </html>

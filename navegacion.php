@@ -8,8 +8,8 @@
     <meta name="description"
         content="<?php echo isset($descripcion) ? $descripcion : "José Rodríguez es un talentoso Director de Fotografía con una amplia experiencia en la industria cinematográfica. Su trabajo se caracteriza por su atención al detalle y su habilidad para contar historias visuales impactantes."; ?>">
 
-
     <?php
+    // ✅ Opción 3: detección por profundidad de directorios
     // Detectar cuántas veces retroceder en base a la URL
     $url = $_SERVER['REQUEST_URI'];
     $nivel = substr_count($url, '/'); // Cuenta cuántos '/' hay en la ruta
@@ -18,17 +18,14 @@
 // Si estás en raíz: nivel 1, en /pages/: 2, en /pages/otra/: 3, etc.
     $base = str_repeat('../', $nivel - 2);
 
-    // Ahora usa $base para los estilos y scripts
-    $rutaEstilos1 = $base . "styles/version9.css";
-    $rutaEstilos2 = $base . "styles/version9-2.css";
-    $rutaEstilos3 = $base . "styles/version9-3.css";
-    $rutaContacto = $base . "styles/contact.css";
-    $rutaFavicon = $base . "imagen/logos/logos.ico";
-    $rutabootstrap = $base . "assets/css/bootstrap.min.css";
-    $rutaJs = $base . "assets/js/bootstrap.bundle.min.js";
-
+    $rutaEstilos1   = $base . "styles/version9-1-1.css";
+    $rutaEstilos2   = $base . "styles/version9-2-2.css";
+    $rutaEstilos3   = $base . "styles/version9-3-2.css";
+    $rutaContacto   = $base . "styles/contact1.css";
+    $rutaFavicon    = $base . "imagen/logos/logos.ico";
+    $rutabootstrap  = $base . "assets/css/bootstrap.min.css";
+    $rutaJs         = $base . "assets/js/bootstrap.bundle.min.js";
     ?>
-
 
     <!-- Preconexión a Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,18 +41,17 @@
             rel="stylesheet">
     </noscript>
 
+    <!-- reCAPTCHA -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-    <!-- Tu CSS -->
-
+    <!-- Estilos locales -->
     <link rel="stylesheet" href="<?php echo $rutaEstilos1; ?>">
     <link rel="stylesheet" href="<?php echo $rutaEstilos2; ?>">
     <link rel="stylesheet" href="<?php echo $rutaEstilos3; ?>">
     <link rel="stylesheet" href="<?php echo $rutaContacto; ?>">
     <link rel="icon" type="image/x-icon" href="<?php echo $rutaFavicon; ?>">
     <link rel="stylesheet" href="<?php echo $rutabootstrap; ?>">
-    <script src="<?php echo $rutaJs; ?>" ></script>
-
+    <script src="<?php echo $rutaJs; ?>"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9S3L8DELVM"></script>
@@ -70,16 +66,15 @@
     <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-M6LF9DZD');
     </script>
-    <!-- End Google Tag Manager -->
-
-
 </head>
 
 <body>
@@ -88,6 +83,6 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6LF9DZD" height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
     </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- Fin Google Tag Manager (noscript) -->
 
-    <!-- Tu contenido -->
+    <!-- Aquí empieza tu contenido -->
