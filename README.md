@@ -2,6 +2,7 @@
 
 This is a website developed for **Jose Rodriguez**, a Colombian cameraman based in Barcelona. The portfolio showcases his visual work focused on commercial, musical, and cinematic storytelling projects.
 
+https://joserodriguezdop.com/
 ---
 
 ## ✨ Features
